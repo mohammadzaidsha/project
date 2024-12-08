@@ -4,6 +4,31 @@ docker run -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.s
 docker exec -it charming_volhard  bash
 
 
+fork this repository into you repos  make sure you are existin user of github
+
+Pre-requiest configuration 
+git config --global --edit 
+Press ctrl + x
+
+git config --global user.name "Your UserName"
+git config --global user.email "Your Email"
+
+https://github.com/mohammadzaidsha/project
+
+git clone  {YOUR REPO URL SOMTHING LIKE : https://github.com/{User.Name}/project } 
+
+cd prpject
+
+make change in index.html
+
+git add . # file name can also be mention 
+
+git commit -am "Your Commit Message"
+
+git push origin main 
+
+
+
 
 # Navigate to /tmp
 cd /tmp
@@ -26,3 +51,6 @@ docker build -t my-first-docker-project .
 
 # Run the Docker container, mapping port 8180 on the host to port 80 in the container
 docker run -d -p 8081:80 --name my-first-docker-project my-first-docker-project
+
+
+
