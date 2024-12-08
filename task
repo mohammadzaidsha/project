@@ -41,8 +41,7 @@ fi
 docker rm -f my-first-docker-project
 
 # Clone the Git repository
-git clone https://github.com/mohammadzaidsha/project.git
-
+git clone  {YOUR REPO URL SOMTHING LIKE : https://github.com/{User.Name}/project } 
 # Navigate to the project directory
 cd project
 
